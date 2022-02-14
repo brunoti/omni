@@ -326,7 +326,7 @@ fn.load = file => {
         resolve();
       }
     };
-    const t = document.getElementsByTagName('script')[0];
+    const t = fn.last(Array.from(document.getElementsByTagName('script')));
     t.parentElement.insertBefore(s, t);
   });
 }

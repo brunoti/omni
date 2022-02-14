@@ -309,3 +309,26 @@ fn.identity = identity;
 fn.pipe = pipe;
 fn.compose = compose;
 fn.curry = curry;
+fn.load = file => {
+  return new Promise(function(resolve, reject) {
+    const s = document.createElement('script');
+    let r = false;
+    s.type = 'text/javascript';
+    s.src = `https://cdn.jsdelivr.net/gh/brunoti/${file}`;
+    s.async = true;
+    s.onerror = function(err) {
+      reject(err, s);
+    };
+    s.onload = s.onreadystatechange = function() {
+      // console.log(this.readyState); // uncomment this line to see which ready states are called.
+      if (!r && (!this.readyState || this.readyState == 'complete')) {
+        r = true;
+        resolve();
+      }
+    };
+    const t = document.getElementsByTagName('script')[0];
+    t.parentElement.insertBefore(s, t);
+  });
+}
+
+fn.load.all = list => Promise.all(list.map(i => fn.load(i))).then(() => console.log('LOADED!'));

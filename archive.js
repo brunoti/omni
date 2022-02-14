@@ -24,7 +24,7 @@ games.find = (what) => games().run(list.find(
   ({ searchable }) => searchable.includes(what),
 ));
 
-games.download = (what) => games.find(what).run(value => maybe.isJust(value) ? location.href(value) : maybe.nothing());
+games.download = (what) => games.find(what).run(value => maybe.isJust(value) ? window.open(maybe.fold(value).link, '_self') : maybe.nothing());
 games.get = () => games().fold();
 
 window.fn.games = games;

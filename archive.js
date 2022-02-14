@@ -27,4 +27,4 @@ games.find = (what) => games().run(list.find(
 games.download = (what) => games.find(what).run(value => maybe.isJust(value) ? window.open(maybe.fold(value).link, '_self') : maybe.nothing());
 games.get = () => games().fold();
 
-window.fn.games = games;
+window.games = games;

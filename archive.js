@@ -1,4 +1,4 @@
-const { dom, curry, list, maybe } = window.fn;
+const { dom, list, maybe } = window.fn;
 
 const gid = Symbol.for('@functions/go');
 

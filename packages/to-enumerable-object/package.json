@@ -1,9 +1,10 @@
 {
-  "name": "to-enumerable-object",
+  "name": "@excelsia/to-enumerable-object",
   "version": "1.0.0",
   "description": "",
   "exports": "./index.js",
   "type": "module",
+  "private": false,
   "types": "index.d.ts",
   "files": [
     "source/to-enumerable-object.js",

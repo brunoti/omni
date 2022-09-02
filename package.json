@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"fp-ts": "^2.12.2",
+		"fnts": "^1.5.1",
+		"rambda": "^7.2.1",
+		"fp-ts-contrib": "^0.1.29"
+	}
+}

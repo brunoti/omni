@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
     "baseUrl": "source",
     "forceConsistentCasingInFileNames": true,
     "isolatedModules": true,

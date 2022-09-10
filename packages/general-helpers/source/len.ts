@@ -1,1 +1,1 @@
-export const len = (s: any) => s?.length ?? 0;
+export const len = (s: any): number => s?.length ?? 0;

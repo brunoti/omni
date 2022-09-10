@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
+  "private": false,
   "files": [
     "./build"
   ],
@@ -11,5 +12,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }

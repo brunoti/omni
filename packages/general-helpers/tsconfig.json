@@ -1,25 +1,25 @@
 {
-  "compilerOptions": {
-    "allowSyntheticDefaultImports": true,
-    "allowJs": true,
-    "baseUrl": "source",
-    "forceConsistentCasingInFileNames": true,
-    "isolatedModules": true,
-    "jsx": "react-jsx",
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "esnext",
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "noErrorTruncation": true,
-    "declaration": true,
-    "declarationMap": true,
-    "outDir": "build"
-  },
-  "include": ["source"],
-  "paths": {
-    "*": ["*"]
-  }
+	"compilerOptions": {
+		"allowSyntheticDefaultImports": true,
+		"allowJs": true,
+		"baseUrl": "source",
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"jsx": "react-jsx",
+		"resolveJsonModule": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "esnext",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"noErrorTruncation": true,
+		"declaration": true,
+		"declarationMap": true,
+		"outDir": "build"
+	},
+	"include": ["source", "tests"],
+	"paths": {
+		"*": ["*"]
+	}
 }

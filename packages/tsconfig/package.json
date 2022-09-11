@@ -1,0 +1,25 @@
+{
+	"name": "@excelsia/tsconfig",
+	"version": "1.0.0",
+	"description": "Shared TypeScript config for my projects",
+	"license": "MIT",
+	"repository": "sindresorhus/tsconfig",
+	"author": {
+		"name": "bop",
+		"email": "brunooliveira37@hotmail.com"
+	},
+	"main": "tsconfig.json",
+	"engines": {
+		"node": ">=14"
+	},
+	"files": [
+		"tsconfig.json"
+	],
+	"keywords": [
+		"tsconfig",
+		"typescript",
+		"ts",
+		"config",
+		"configuration"
+	]
+}

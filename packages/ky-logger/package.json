@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "to-enumerable-object": "workspace:*",
+    "@excelsia/to-enumerable-object": "workspace:*",
     "ky": "^0.31.1",
     "sucrase": "^3.25.0",
     "ts-node": "^10.9.1",

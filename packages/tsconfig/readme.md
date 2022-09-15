@@ -5,10 +5,10 @@
 ## Install
 
 ```sh
-npm install --save-dev @sindresorhus/tsconfig
+npm install --save-dev @excelsia/tsconfig
 ```
 
-*This config requires TypeScript 4.7 or later.*
+_This config requires TypeScript 4.7 or later._
 
 ## Usage
 
@@ -16,18 +16,18 @@ npm install --save-dev @sindresorhus/tsconfig
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig",
+	"extends": "@excelsia/tsconfig",
 	"compilerOptions": {
 		"outDir": "dist"
 	}
 }
 ```
 
-When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
+When you are targeting a specific version of Node.js, check the relevant ECMAScript version and add it as `target`:
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig",
+	"extends": "@excelsia/tsconfig",
 	"compilerOptions": {
 		"outDir": "dist",
 		"target": "ES2021"

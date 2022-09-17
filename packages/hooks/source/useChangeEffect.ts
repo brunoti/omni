@@ -12,6 +12,6 @@ export function useChangeEffect(effect: () => void, deps: unknown[]): void {
 		effect()
 
 		// eslint-disable-next-line react-hooks/exhaustive-deps
-	}, [deps])
+	}, deps)
 }
 

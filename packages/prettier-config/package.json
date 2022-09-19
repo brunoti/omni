@@ -1,0 +1,26 @@
+{
+  "name": "@excelsia/prettier-config",
+  "version": "1.0.0",
+  "description": "A Prettier shareable config for my projects",
+  "main": ".prettierrc.json",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "eslintplugin",
+    "eslint-plugin",
+    "JavaScript Standard Style",
+    "jsstandard",
+    "lint",
+    "prettier",
+    "prettierconfig",
+    "prettier-config",
+    "standard",
+    "standard style"
+  ],
+  "author": "bop <brunooliveira37@hotmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^2.4.0"
+  }
+}

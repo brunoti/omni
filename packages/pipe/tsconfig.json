@@ -1,0 +1,7 @@
+{
+	"extends": "@excelsia/tsconfig",
+	"compilerOptions": {
+		"outDir": "dist"
+	},
+	"include": ["source"]
+}

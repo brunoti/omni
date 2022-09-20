@@ -43,12 +43,14 @@ importers:
       '@excelsia/pipe': workspace:*
       ava: ^4.3.3
       prettier: ^2.7.1
+      rimraf: ^3.0.2
       ts-node: ^10.9.1
       typescript: ^4.7.4
     devDependencies:
       '@excelsia/pipe': link:../pipe
       ava: 4.3.3
       prettier: 2.7.1
+      rimraf: 3.0.2
       ts-node: 10.9.1_nwm5gnmtj5mpwtqjmit2j7xbtu
       typescript: 4.7.4
 

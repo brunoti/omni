@@ -1,3 +1,7 @@
 export * from './len'
 export * from './isListable'
+export * from './isDefined'
+export * from './isPresent'
+export * from './pipe'
+export * from './safe'
 export * as download from './download'

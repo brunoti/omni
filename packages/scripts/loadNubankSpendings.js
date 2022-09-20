@@ -1,7 +1,8 @@
 import { pipe } from 'https://unpkg.com/@excelsia/pipe@1.0.0/dist/index.js'
+import * as dom from 'https://unpkg.com/@excelsia/dom@1.0.0/dist/index.js'
 
 const main = async () => {
-  console.log(pipe)
+  console.log(pipe, dom)
   
   // const lastColumnSpendings = () => pipe(
   //   dom.last('.charges.column', document.body),

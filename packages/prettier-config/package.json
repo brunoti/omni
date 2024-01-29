@@ -1,7 +1,8 @@
 {
   "name": "@excelsia/prettier-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Prettier shareable config for my projects",
+  "repositry": "brunoti/omni",
   "main": ".prettierrc.json",
   "keywords": [
     "eslint",
@@ -18,9 +19,16 @@
     "standard",
     "standard style"
   ],
-  "author": "bop <brunooliveira37@hotmail.com>",
+  "author": {
+    "name": "bop",
+    "email": "brunohdbass@gmail.com",
+    "url": "https://bop.systems"
+  },
+  "files": [
+    ".prettierrc.json"
+  ],
   "license": "MIT",
   "peerDependencies": {
-    "prettier": "^2.4.0"
+    "prettier": "*"
   }
 }

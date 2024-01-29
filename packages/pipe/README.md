@@ -4,7 +4,7 @@
 Pipe as in the way it should be. This is based on [fp-ts](https://github.com/gcanti/fp-ts). It also includes a custom
 Error object that traces the information of where it happened to facilitate debugging.
 
-## Demo
+## How to use
 
 ```typescript
 import { pipe } from '@excelsia/pipe';

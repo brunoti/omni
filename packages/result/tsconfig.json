@@ -1,0 +1,6 @@
+{
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"strict": true,
+	"extends": "@excelsia/tsconfig",
+	"include": ["source"]
+}

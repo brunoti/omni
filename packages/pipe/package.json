@@ -1,12 +1,9 @@
 {
 	"name": "@excelsia/pipe",
-	"version": "2.0.1",
+	"version": "2.0.3",
 	"description": "",
 	"type": "module",
-	"exports": {
-		"types": "./source/pipe.d.ts",
-		"default": "./source/pipe.js"
-	},
+	"main": "./source/pipe.js",
 	"keywords": [
 		"pipe",
 		"functional"

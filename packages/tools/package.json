@@ -1,0 +1,38 @@
+{
+	"name": "@excelsia/tools",
+	"version": "0.0.0",
+	"description": "",
+	"type": "module",
+	"exports": {
+		"./task": "./source/task.js",
+		"./result": "./source/result.js",
+		"./task-result": "./source/task-result.js",
+		"./fetch-task": "./source/fetch-task.js",
+		"./promise": "./source/promise.js",
+		"./sniff": "./source/sniff.js"
+	},
+	"keywords": [
+		"result",
+		"fp",
+		"functional"
+	],
+	"author": {
+		"name": "bop",
+		"email": "brunohdbass@gmail.com",
+		"url": "https://bop.systems"
+	},
+	"license": "MIT",
+	"scripts": {
+		"test": "vitest"
+	},
+	"devDependencies": {
+		"@excelsia/prettier-config": "workspace:^",
+		"@excelsia/tsconfig": "workspace:^",
+		"@vitest/coverage-istanbul": "^1.2.2",
+		"@vitest/coverage-v8": "^1.2.2",
+		"ts-pattern": "^5.0.6",
+		"vitest": "^1.2.2"
+	},
+	"@excelsia/pipe": "*",
+	"type-fest": "^2.19.0"
+}
